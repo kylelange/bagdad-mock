@@ -31,7 +31,7 @@ button {
 }
 
 /*Class Selectors********************/
-#content, #navbar-content {
+.container {
   max-width: 1000px;
 }
 
@@ -110,7 +110,7 @@ button {
   margin: 5px;
 }
 /*Media Queries**********************/
-@media screen and (max-width 768px){
+@media screen and (max-width: 768px){
   .marquee {
     display: none;
   }
@@ -120,7 +120,7 @@ button {
   }
 }
 
-@media screen and (max-width 992px) and (min-width 769px){
+@media screen and (max-width: 992px) and (min-width: 769px){
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -136,4 +136,14 @@ button {
   .navbar-collapse.in {
     overflow-y: visible;
   }
+
+  .button-box {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .button-box button {
+    font-size: .6em;
+  }
+
 }
