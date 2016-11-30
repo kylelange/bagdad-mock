@@ -1,9 +1,58 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 /*Universal Selectors****************/
 
-
+body {
+  background-image: url('../img/bg.jpg'), url('../img/noise-light.png');
+  background-color: black;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  color: #FFF;
+  font-family: "Trebuchet MS",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 /*Class Selectors********************/
+.navbar {
+  height: 75px;
+}
 
+.navbar li {
+  padding-top: 15px;
+}
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+  color: #df8025;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #df8025;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #df8025;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
 
 
 /*Id Selectors***********************/
