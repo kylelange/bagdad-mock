@@ -21,18 +21,33 @@ body {
   line-height: 1.5;
 }
 
+button {
+  background-color: #da7e25;
+  border-bottom: 4px solid #834c16;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #FFF;
+}
+
 /*Class Selectors********************/
+#content, #navbar-content {
+  max-width: 1000px;
+}
+
 .navbar {
-  height: 75px;
+  height: 97px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .navbar li {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: rgba(0,0,0,0.55);
+  border: none;
 }
 .navbar-inverse .navbar-brand {
   color: #df8025;
@@ -50,13 +65,75 @@ body {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #f0ecca;
   background-color: transparent;
 }
 
+.featured-image {
+  padding: 10px;
+  background-color: rgba(0,0,0,0.55);
+}
+
+.featured-image img {
+  margin-top: -40px;
+}
+
+.tickets-col {
+  border-left: 1px solid rgba(255,255,255,0.25);
+}
+
+/*.showtimes-col {
+  border-right: 1px solid rgba(255,255,255,0.25);
+}*/
 
 /*Id Selectors***********************/
 
+#rowA {
+  /*width: auto;*/
+  border-radius: 0px;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 15px;
+}
 
+.button-box {
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 15px 15px 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 20px;
+}
 
+.button-box button {
+  width: 33%;
+  margin: 5px;
+}
 /*Media Queries**********************/
+@media screen and (max-width 768px){
+  .marquee {
+    display: none;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width 992px) and (min-width 769px){
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+}

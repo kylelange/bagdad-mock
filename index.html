@@ -7,7 +7,7 @@
     </head>
     <body>
       <nav class="navbar navbar-inverse">
-        <div class="container">
+        <div class="container" id="navbar-content">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -32,6 +32,47 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
+
+      <div id="content" class="container">
+        <div class="row">
+          <div class="container">
+            <div class="col-xs-12 col-sm-8 col-sm-push-4 right">
+              <div class="row" id="rowA">
+                  <div class="col-sm-6">
+                    <h2>Movie Showtimes</h2>
+                    <p>Minors are allowed only with a parent or guardian at any show.</p>
+                    <p>Choose date above and click showtimes on the right for online ticket purchases.</p>
+                  </div>
+                  <div class="col-sm-6 tickets-col">
+                    <h3>Fantastic Beasts and Where to Find Them (PG-13)</h3>
+                    <p>Running time 2:20</p>
+                    <div class="button-box">
+                      <p>Buy Tickets</p>
+                      <button type="button" name="button">11:30am</button>
+                      <button type="button" name="button">3:00pm</button>
+                      <button type="button" name="button">7:00pm</button>
+                      <button type="button" name="button">10:45pm</button>
+                    </div>
+                    <p>Please be patient while we process your order.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-sm-pull-8 left">
+              <div class="featured-image hidden-xs">
+                <img class="img-responsive" src="img/marquee.png" alt="our marquee" />
+              </div>
+              <h2>About the Bagdad</h2>
+              <p>
+                Come experience our new 50% larger screen, 20,000-watt surround
+                sound, state-of-the-art digital projector and new luxurious
+                rocker seating at Portland’s Bagdad Theater!
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
 <!--Scripts-->
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/bootstrap.js"></script>
