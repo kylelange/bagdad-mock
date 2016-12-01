@@ -1,37 +1,38 @@
-# _{Application Name}_
+# _[Bagdad Mock-up](http://www.bagdadmovies.com/)_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Bootstrap responsive PRACTICE, {Nov. 30th, 2016}_
 
-#### By _**{List of contributors}**_
+#### By _**Kyle Lange and Marta Sanchez**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This app shows our practice floats, media queries and Bootstrap 3 elements such as: hidden, img-responsive, rows & columns shifts.  [See it live here.](http://kylelange.github.io/bagdad-mock)_
+
+
+![project screenshot](Screen Shot.png)
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+  1. Download this repo using your terminal: git clone repo-name pasted here
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+  2. View the code by drag-and-dropping the file into your [favorite text editor](https://atom.io)
 
-## Known Bugs
+  3. run/check-out the program by dropping the index/html file from your folder into your web browser
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
-## Support and contact details
+### Support & Contact
+For questions or comments, please __email [Marta](sanchez.marta@gmail.com) or [Kyle](baronsintrees@gmail.com)__
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+### Known Issues
+_There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something we have not._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* HTML5
+* CSS3
+* Bootstrap + Bootstrap.js
 
-### License
+### Legal
+*Licensed under the GNU General Public License v3.0*
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Marta Sanchez_ & _Kyle Lange_**
