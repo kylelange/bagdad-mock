@@ -6,7 +6,7 @@
 
 ## Description
 
-_This app shows our practice floats, media queries and Bootstrap 3 elements such as: hidden, img-responsive, rows & columns shifts.  [See it live here.](http://kylelange.github.io/bagdad-mock)_
+_This app shows our practice floats, media queries and Bootstrap 3 elements such as: hidden, img-responsive, rows & columns shifts.  [See it live here.](https://kylelange.github.io/bagdad-mock/)_
 
 
 ![project screenshot](Screen Shot.png)
