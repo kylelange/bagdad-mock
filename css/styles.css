@@ -30,6 +30,16 @@ button {
   color: #FFF;
 }
 
+a {
+  color: #df8025;
+  transition: color 0.2s linear;
+}
+
+a:hover {
+  color: #f0ecca;
+  text-decoration: none;
+}
+
 /*Class Selectors********************/
 .container {
   max-width: 1000px;
@@ -82,6 +92,31 @@ button {
   border-left: 1px solid rgba(255,255,255,0.25);
 }
 
+.now-playing {
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.now-playing img {
+  width: 33%;
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.now-playing p {
+  margin-top: 10px;
+}
+
+.now-playing button {
+  margin: 10px 0;
+}
+
+.now-playing h3 {
+  margin-top: -5px;
+}
+
+
+
 /*.showtimes-col {
   border-right: 1px solid rgba(255,255,255,0.25);
 }*/
@@ -118,6 +153,10 @@ button {
   .container {
     padding: 15px;
   }
+
+  .tickets-col {
+    border: none;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 769px){
@@ -146,4 +185,11 @@ button {
     font-size: .6em;
   }
 
+  .now-playing img {
+    width: 20%;
+    float: left;
+    max-width: 120px;
+    margin-bottom: 65px;
+    margin-right: 20px;
+  }
 }
